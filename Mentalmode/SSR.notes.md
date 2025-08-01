@@ -76,7 +76,7 @@ File-based Routing (/app or /pages)
 
 
 ✍️ 6. Forms & Data Mutation
-Controlled/uncontrolled forms
+Controlled/uncontrolled forms 
 
 
 🔐 7. Authentication & Authorization
