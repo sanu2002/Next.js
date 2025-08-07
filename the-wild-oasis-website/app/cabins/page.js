@@ -4,7 +4,15 @@
 'use client'
 
 import { useState } from "react";
-import Counter from "../components/counter";
+// import Counter from "../_components/counter";  we can use alias 
+
+import Counter from "@/app/_components/counter";
+
+// export const metadata = {
+//   title: "The old Oasis",
+
+// };
+
 
 export default async function CabinsPage() {
 
