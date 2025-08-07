@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import dogo from "@/app/_images/Logo.jpg";
+import dogo from "@/app/_images/Logo1.jpg";
 
 function Logo() {
   return (
@@ -9,6 +9,8 @@ function Logo() {
       <div className="w-12 h-12 rounded-full overflow-hidden">
         <Image
           src={dogo}
+          // height="60"
+          quality={100}
           alt="The Wild Oasis Logo"
           // width={48}   
           // height={48}  No need to use this 
